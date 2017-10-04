@@ -1,0 +1,26 @@
+baseURL = "amnerip.github.io/processing-playground"
+title = "neriam"
+theme = "hugo-creative-portfolio-theme"
+languageCode = "en-us"
+
+[params]
+	style = "green"
+	description = "TODO: write description"
+	sidebarAbout = [
+		"I will forever be a student. Only sometimes other things."
+	]
+	email = "neri.ana.1431@gmail.com"
+
+	[[params.navlinks]]
+	name = "About"
+	url = "about/"
+
+	[[params.navlinks]]
+	name = "Get in touch"
+	url = "contact/"
+
+	[params.social]
+	facebook = "https://www.facebook.com/amnerip"
+	email = "neri.ana.1431@gmail.com"
+	instagram = "https://www.instagram.com/amnerip/"
+	github = "https://www.github.com/amnerip"
