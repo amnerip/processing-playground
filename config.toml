@@ -3,7 +3,7 @@ title = "neriam"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 
-publishDir = "public"
+publishDir = "docs"
 
 [params]
 	style = "green"
