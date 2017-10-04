@@ -3,6 +3,8 @@ title = "neriam"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 
+publishDir = "public"
+
 [params]
 	style = "green"
 	description = "TODO: write description"
