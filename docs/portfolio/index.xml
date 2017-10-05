@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>neriam</title>
-    <link>https://amnerip.github.io/processing-playground/</link>
-    <description>Recent content on neriam</description>
+    <title>Portfolios on neriam</title>
+    <link>https://amnerip.github.io/processing-playground/portfolio/</link>
+    <description>Recent content in Portfolios on neriam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Oct 2017 08:43:38 -0700</lastBuildDate>
     
-	<atom:link href="https://amnerip.github.io/processing-playground/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amnerip.github.io/processing-playground/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -36,15 +36,6 @@
       
       <guid>https://amnerip.github.io/processing-playground/portfolio/1/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://amnerip.github.io/processing-playground/posts/first/</link>
-      <pubDate>Wed, 04 Oct 2017 07:27:09 -0700</pubDate>
-      
-      <guid>https://amnerip.github.io/processing-playground/posts/first/</guid>
-      <description>Here is the first post of the day. Woo!</description>
     </item>
     
   </channel>
