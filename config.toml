@@ -1,5 +1,5 @@
-baseURL = "amnerip.github.io/processing-playground"
 title = "neriam"
+baseURL = "https://amnerip.github.io/processing-playground"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 
