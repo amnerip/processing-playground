@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <div id="sketch-container"></div>
+    {{ .Content }}
+{{ end }}
+
+{{ define "scripts" }}
+{{ with .Params.sketch }}
+  <script src="../../js/{{ . }}"></script>
+{{ end }}
+{{ end }}

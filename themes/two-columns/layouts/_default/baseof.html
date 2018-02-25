@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "head.html" . }}
+  {{ with .Title }}<title>{{ . }}</title>{{ end }}
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      {{ partial "sidebar.html" . }}
+      <div class="col-8" style="padding: 40px">
+        {{ block "main" . }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  {{ block "scripts" . }}
+  {{ end }}
+</body>
+</html>

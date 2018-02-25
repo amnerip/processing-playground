@@ -3,15 +3,15 @@
 
 name = "Two Columns"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+licenselink = "https://github.com/amnerip/hugo-two-columns/blob/master/LICENSE.md"
 description = ""
-homepage = "http://example.com/"
+homepage = ""
 tags = []
 features = []
 min_version = "0.29"
 
 [author]
-  name = ""
+  name = "Ana M. Neri"
   homepage = ""
 
 # If porting an existing theme

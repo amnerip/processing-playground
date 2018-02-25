@@ -1,19 +1,20 @@
-int depth = 1;
-int maxDepth = 1;
-float rot;
+var depth = 1;
+var maxDepth = 1;
+var rot;
 
-void setup() {
-  size(600,600);
-  // createCanvas(600, 600):
+function setup() {
+  // size(600,600);
+  var cnv = createCanvas(600, 600);
+	cnv.parent('sketch-container');
   colorMode(HSB);
   background(0);
 }
 
-void mouseClicked() {
+function mouseClicked() {
   maxDepth++;
 }
 
-void draw() {
+function draw() {
   background(0);
   stroke(map(mouseX, 0, width, 0, 255), map(mouseY, 0, height, 0, 255), 255);
   rot = map(mouseY, 0, height, 0, PI);
@@ -23,7 +24,7 @@ void draw() {
   drawStem(rot, 150.0, 0);
 }
 
-void drawStem(float x, float l, int d) {
+function drawStem(x, l, d) {
   if (d >= maxDepth) {
     return;
   }
@@ -31,10 +32,10 @@ void drawStem(float x, float l, int d) {
   line(0,0,0,-l);
   translate(0,-l);
 
-  pushMatrix();
+  push();
   drawStem(x, l*0.67, d+1);
-  popMatrix();
-  pushMatrix();
+  pop();
+  push();
   drawStem(-x, l*0.67, d+1);
-  popMatrix();
+  pop();
 }
